@@ -26,11 +26,11 @@ Connect an analog source to your design.
 
             100k
             ___
-    sdo o--|___|--+
+   OUT0 o--|___|--+
                   |
             100k  |
             ___   |
-    uin o--|___|--o----------o sdi
+    Vin o--|___|--o----------o IN0
                   |
                  ---
                  ---  100n
