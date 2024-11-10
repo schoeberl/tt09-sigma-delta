@@ -9,12 +9,31 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Converting an analog signal to a pulse duration modulated digital signal
 
 ## How to test
-
-Explain how to use your project
+Connect an analog source to your design.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+--	sigma delta AD converter
+--	
+--	without external comparator:
+--		input threshold of the DFF input is used as comparator
+--		(not very exact but only 3 external components)
+--
+--
+--            100k
+--            ___
+--    sdo o--|___|--+
+--                  |
+--            100k  |
+--            ___   |
+--    uin o--|___|--o----------o sdi
+--                  |
+--                 ---
+--                 ---  100n
+--                  |
+--                  |
+--                 ---
+--                  -
