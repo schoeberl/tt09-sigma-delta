@@ -1,15 +1,6 @@
-<!---
-
-This file is used to generate your project datasheet. Please fill in the information below and delete any unused
-sections.
-
-You can also include images in this folder and reference them in the markdown. Each image must be less than
-512 kb in size, and the combined size of all images must be less than 1 MB.
--->
-
 ## How it works
 
-Provide an analgo signal in Vin (e.g., some music) and listen to the output of Vout (using an amplifier).
+Provide an analog signal at Vin (e.g., some music) and listen to the output at Vout (using an amplifier).
 The circuit will probably add some noise, as it is very crude. But it went from the analog domain to digital
 and then back.
 
