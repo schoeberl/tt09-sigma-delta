@@ -16,24 +16,26 @@ Connect an analog source to your design.
 
 ## External hardware
 
---	sigma delta AD converter
---	
---	without external comparator:
---		input threshold of the DFF input is used as comparator
---		(not very exact but only 3 external components)
---
---
---            100k
---            ___
---    sdo o--|___|--+
---                  |
---            100k  |
---            ___   |
---    uin o--|___|--o----------o sdi
---                  |
---                 ---
---                 ---  100n
---                  |
---                  |
---                 ---
---                  -
+```
+	sigma delta AD converter
+	
+	without external comparator:
+		input threshold of the DFF input is used as comparator
+		(not very exact but only 3 external components)
+
+
+            100k
+            ___
+    sdo o--|___|--+
+                  |
+            100k  |
+            ___   |
+    uin o--|___|--o----------o sdi
+                  |
+                 ---
+                 ---  100n
+                  |
+                  |
+                 ---
+                  -
+```
