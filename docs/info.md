@@ -9,7 +9,7 @@ Future work should be to use that sigma-delta coded signal to do some fun audio 
 Anyone knowing how to do DSP in the sigma-delta domain?
 
 ## How to test
-Connect an analog source to your design.
+Connect an analog source to your design and listen to the music (output).
 
 ## External hardware
 
