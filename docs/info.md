@@ -17,7 +17,7 @@ This is a sigma-delta AD converter and a DA converter.
 
 The input is mixed with the feedback delay/inversion and uses the threshold of the DFF input as a comparator, serving as a single bit ADC.
 
-The R and C values cdepend on you input signal and can be discussed and should be explored.
+The R and C values depend on the input signal and can be discussed and should be explored.
 
 ```
 
