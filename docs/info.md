@@ -13,7 +13,7 @@ Provide an analgo signal in Vin (e.g., some music) and listen to the output of V
 The circuit will probably add some noise, as it is very crude. But it went from the analog domain to digital
 and then back.
 
-Future work shoulb be to use that sigma-delta coded signal to do some fun audio processing.
+Future work should be to use that sigma-delta coded signal to do some fun audio processing.
 
 Anyone knowing how to do DSP in the sigma-delta domain?
 
@@ -24,9 +24,9 @@ Connect an analog source to your design.
 
 This is a sigma delta AD converter and DA converter.
 
-The input is a the threshold of the DFF input using as comparator, serving as a single bit ADC.
+The input is mixed with the feedback delay/inverison and uses the threshold of the DFF input as a comparator, serving as a single bit ADC.
 
-The R and C values can be discussed and experimented.
+The R and C values cdepend on you input signal and can be discussed and should be explored.
 
 ```
 
